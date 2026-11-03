@@ -59,6 +59,8 @@ La rama feature/angel-grupo-5 parte de feature/diego-caso-5 porque el PR #1 segu
 
 La rama de Ángel se publica en el fork AngelRosales78/petclinic-tests porque su cuenta aun no tiene permiso para subir al repositorio compartido. La [revision de Ángel del PR #1](https://github.com/DiegoMagallanes11/petclinic-tests/pull/1#pullrequestreview-5757941702) quedo registrada como APPROVED.
 
+El [PR #2 de Ángel](https://github.com/DiegoMagallanes11/petclinic-tests/pull/2) esta abierto. Se solicito la revision de Diego mediante comentario, ya que GitHub no permitio asignarlo formalmente desde la cuenta de Ángel.
+
 No se modifican el servicio, entidad, repositorio ni pruebas de tipos de Diego. Se conservan schema.sql y data.sql. La regla de una sola especialidad principal se aplica en una transaccion con bloqueo del veterinario; el esquema original no tiene una restriccion adicional para esa regla.
 
 ```powershell

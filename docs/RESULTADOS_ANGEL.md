@@ -32,6 +32,8 @@ El conector devolvio HTTP 403 y el intento mediante navegador se detuvo porque e
 
 La subida directa al repositorio compartido fue rechazada por falta de permisos de escritura de AngelRosales78. Se creo el fork https://github.com/AngelRosales78/petclinic-tests para subir la rama y solicitar la integracion hacia el repositorio de Diego.
 
+Se abrio y verifico el [PR #2 de Ángel](https://github.com/DiegoMagallanes11/petclinic-tests/pull/2), comparando AngelRosales78:feature/angel-grupo-5 contra feature/diego-caso-5. Contiene solo los 16 archivos del aporte de Ángel. La solicitud formal de revisor devolvio HTTP 404; se publico una [solicitud de revision a Diego mediante comentario](https://github.com/DiegoMagallanes11/petclinic-tests/pull/2#issuecomment-6613062890). Esto no equivale a una revision de Diego ni a un merge.
+
 ## Pendientes del equipo
 
 - Diego debe revisar el PR de Ángel; integrar los PR corresponde al equipo despues de las revisiones.
