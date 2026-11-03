@@ -12,7 +12,7 @@ El equipo desarrolla el **caso 5 del Word** y el **grupo 5 de TASKS.md**. Son do
 
 | Integrante | Responsabilidad | Estado |
 |---|---|---|
-| Diego Magallanes, DiegoMagallanes11 | Caso 5 del Word: CRUD de tipos | Implementado en feature/diego-caso-5; pendiente revision de Angel |
+| Diego Magallanes, DiegoMagallanes11 | Caso 5 del Word: CRUD de tipos | Implementado en feature/diego-caso-5; PR #1 revisado y aprobado por Ángel |
 | Ángel Rosales, AngelRosales78 | Grupo 5: relacion veterinario especialidad | Implementado en feature/angel-grupo-5; pendiente revision de Diego |
 
 ## Ejecutar en Windows
@@ -56,6 +56,8 @@ Para la entrega: enlace al repositorio, captura real de `git log --all --graph -
 ## Parte de Ángel
 
 La rama feature/angel-grupo-5 parte de feature/diego-caso-5 porque el PR #1 seguia abierto al iniciar el trabajo. El PR de Ángel debe compararse con esa rama mientras exista la dependencia; una vez integrado el PR de Diego, se puede cambiar la base a main.
+
+La rama de Ángel se publica en el fork AngelRosales78/petclinic-tests porque su cuenta aun no tiene permiso para subir al repositorio compartido. La [revision de Ángel del PR #1](https://github.com/DiegoMagallanes11/petclinic-tests/pull/1#pullrequestreview-5757941702) quedo registrada como APPROVED.
 
 No se modifican el servicio, entidad, repositorio ni pruebas de tipos de Diego. Se conservan schema.sql y data.sql. La regla de una sola especialidad principal se aplica en una transaccion con bloqueo del veterinario; el esquema original no tiene una restriccion adicional para esa regla.
 
